@@ -12,7 +12,7 @@
     * The `-t` flag just gives the resulting image the name `bridges_debian`, not required, but makes running it easier
     * The last argument is a directory that contains your Dockerfile, meaning you don't actually have to run `docker build` in the same directory
 6. Assuming no errors, spin up a container of the resulting image with `docker run -it bridges_debian`
-    * To ensure the image is funcitonal, run:
+    * To ensure the image is functional, run:
       1. `cd example_project`
       2. `make`
       3. `./main`
