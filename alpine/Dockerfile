@@ -10,7 +10,5 @@ RUN cd home && git clone https://github.com/AlecGoncharow/bridges-cxx-docker-pro
 
 RUN cd /home/bridges && mv .bashrc /root/ && mv .dir_colors /root/ && git submodule init && git submodule update 
 
-RUN ln -sfn bash /bin/sh
-
 WORKDIR /home/bridges
 
