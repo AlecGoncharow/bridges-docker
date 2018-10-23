@@ -24,4 +24,4 @@
    which would copy the Makefile into your current directory. 
    * This works the same way for directories.
 8. To reuse a container, you must start it with `docker start CONTAINER_NAME`, or in our case `docker start bridges`.
-9. To run the container, run `docker exec -it bridges bash`.
+9. To run the container interactively, run `docker exec -it bridges bash`.
