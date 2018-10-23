@@ -18,7 +18,7 @@
       2. `make`
       3. `./main`
     * Hopefully you should be able to compile and run the bridges program, which does not have any credentials plugged in, so you should end up with an error message about that
-7. To copy files out of the container run `docker cp CONTAINER:SOURCE_DIR/FILE TARGET DIR`
+7. To copy files out of the container run `docker cp CONTAINER:SOURCE_DIR/FILE TARGET_DIR`
    * Example: if you want to copy the example Makefile out you would run:  
    `docker cp bridges:bridges/example_project/Makefile .`   
    which would copy the Makefile into your current directory. 
